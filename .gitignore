@@ -16,5 +16,16 @@ __pycache__/
 # IDE/editor
 .vscode/
 
-# Raw data
+# DuckDB 
+*.duckdb
+*.duckdb.wal
+
+# Tableau workbooks and temporary files
+*.twb
+*.twbx
+*.hyper
+*.tde
+
+# Raw data and generated data
 data/raw/
+data/processed/
